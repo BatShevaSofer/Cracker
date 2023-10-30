@@ -1,0 +1,20 @@
+main {
+    min-height: 600px;
+}
+
+main .container {
+    /* min-height: 500px; */
+    border-radius: 32px;
+    background: linear-gradient(to bottom right, #094679 0%, #021F25 100%);
+    margin-top: 70px;
+    align-items: center;
+    transition: 2000ms;
+    width: 70%;
+}
+
+main h1 {
+    background: #00FFF7;
+    background: linear-gradient(to right, #00FFF7 27%, #1243B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

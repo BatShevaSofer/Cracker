@@ -1,0 +1,42 @@
+.accordion-item .accordion-button {
+    background: rgb(37, 91, 121);
+    background: linear-gradient(225deg, rgba(37, 91, 121, 1) 9%, rgba(9, 85, 121, 1) 39%, rgba(4, 2, 37, 1) 76%);
+    border: none;
+    color: rgb(18, 189, 167);
+    font-family: 'Playpen Sans', cursive;
+}
+
+
+.accordion-header .accordion-button:not(.collapsed) {
+    background: #00FFF7;
+    background: linear-gradient(100deg, rgba(37, 91, 121, 1) 9%, rgba(9, 85, 121, 1) 39%, rgba(4, 2, 37, 1) 76%);
+    color: #eee;
+  }
+
+  .accordion-button::after{
+    background-image: url(../Cyber_images/plus.png);
+    background-size: cover;
+    
+  }
+  .accordion-button:not(.collapsed)::after{
+    background-image: url(../Cyber_images/minus.png);
+  }
+
+  .accordion-item{
+    transition: 2000ms;
+  }
+
+  .accordion-body{
+    font-family: 'Playpen Sans', cursive;
+
+  }
+  .accordion .about{
+    background: #00FFF7;
+    background: linear-gradient(to right, #00FFF7 27%, #1243B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Playpen Sans', cursive;
+  }
+  hr{
+    color: white;
+  }

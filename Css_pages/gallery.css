@@ -1,0 +1,134 @@
+
+
+
+main img:hover {
+    box-shadow: 1px 0px 9px rgba(18, 189, 167, 1);
+    filter: blur(5px);
+}
+main img, iframe{
+    max-height: 200px;
+    width: 100%;
+    transition: 100ms;
+}
+
+.light_box{
+
+    position: fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.705);
+
+    z-index: 999;
+
+    justify-content: center;
+    align-items: center;
+    display: none;
+    box-sizing: border-box;
+  }
+  
+
+  .light_box .inside_box{
+    background: rgb(18, 189, 167);
+    background: radial-gradient(circle, rgba(18, 189, 167, 1) 0%, rgba(9, 70, 121, 1) 0%, rgba(2, 31, 37, 1) 100%);
+    padding:8px;
+    max-width: 600px;
+    width:100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  
+  .light_box .inside_box img{
+    max-width: 600px;
+    width:98%;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  
+  .light_box .inside_box p{
+    color:grey;
+    font-size: 2em;
+  }
+  
+  
+  .light_box .inside_box button{
+    
+        background: #00FFF7;
+        background: linear-gradient(to right, #00FFF7 13%, #1243B5 100%);
+        border: none;
+        border-radius: 19px;
+        padding: 10px 15px;
+        font-family: 'Playpen Sans', cursive;
+    
+    
+   
+  }
+   
+  .light_box .inside_box button:hover {
+    padding: 15px 20px;
+}
+
+main h2{
+    background: #00FFF7;
+    background: linear-gradient(to right, #00FFF7 27%, #1243B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Playpen Sans', cursive;
+}
+
+
+
+
+
+hr{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main .row >div{
+    min-height: 150px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+main .img1{
+    background-image: url(../Cyber_images/Gallery/fabio-lucas-aTpGSPfalzY-unsplash.jpg);
+}
+main .img2{
+    background-image: url(../Cyber_images/Gallery/hack-capital-uv5_bsypFUM-unsplash.jpg);
+}
+main .img3{
+    background-image: url(../Cyber_images/Gallery/html-css-collage-concept-with-hacker.jpg);
+}
+main .img4{
+    background-image: url(../Cyber_images/Gallery/html-css-collage-concept.jpg);
+}
+main .img5{
+    background-image: url(../Cyber_images/Gallery/joan-gamell-XmZ4GDAp9G0-unsplash.jpg);
+}
+main .img6{
+    background-image: url(../Cyber_images/Gallery/matrix-hacker-background.jpg);
+}
+main .img7{
+    background-image: url(../Cyber_images/Gallery/max-bender-XIVDN9cxOVc-unsplash.jpg);
+}
+main .img8{
+    background-image: url(../Cyber_images/Gallery/slider5.jpg);
+} */
